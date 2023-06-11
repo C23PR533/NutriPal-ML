@@ -1,5 +1,6 @@
 import flask
 import io
+import pandas as pd
 import string
 import time
 import os
@@ -31,7 +32,7 @@ def recommend_food(model, data, food_id, food_name, num_recommendations=10):
         'Nama': [food_name],
         'Tipe': [food_row['Tipe'].values[0]]
     })
-    
+    type=f
     # Preprocess the input features
     input_features['tipe_encoded'] = label_encoder.transform(input_features['Tipe'])
     input_features_encoded = onehot_encoder.transform(input_features['tipe_encoded'].values.reshape(-1, 1))
@@ -60,8 +61,8 @@ def get_recommendation():
     
     food_id = request.form.get('food_id')
     food_name = request.form.get('food_name')
-
-    top_recommendations = recommend_food(food_id, food_name)
+    df=pd.read_csv('tes.csv')
+    top_recommendations = recommend_food(model=model, data=df, food_id=food_id, food_name=food_name)
 
     return jsonify({'top_recommendations': top_recommendations})
 
