@@ -1,0 +1,125 @@
+{
+    "food": {
+        "brand_name": "Shirakiku",
+        "food_id": "46827300",
+        "food_name": "Pork Gyoza",
+        "food_type": "Brand",
+        "food_url": "https://www.fatsecret.com/calories-nutrition/shirakiku/pork-gyoza",
+        "servings": {
+            "serving": [
+                {
+                    "calcium": "40",
+                    "calories": "240",
+                    "carbohydrate": "34.00",
+                    "cholesterol": "15",
+                    "fat": "8.00",
+                    "fiber": "2.0",
+                    "iron": "2.70",
+                    "measurement_description": "serving",
+                    "metric_serving_amount": "144.000",
+                    "metric_serving_unit": "g",
+                    "number_of_units": "1.000",
+                    "protein": "9.00",
+                    "saturated_fat": "2.500",
+                    "serving_description": "7 pieces",
+                    "serving_id": "40092479",
+                    "serving_url": "https://www.fatsecret.com/calories-nutrition/shirakiku/pork-gyoza",
+                    "sodium": "510",
+                    "sugar": "3.00"
+                }
+            ]
+        }
+    }
+}{
+    "food": {
+        "brand_name": "Hungry Planet",
+        "food_id": "58704864",
+        "food_name": "Gyoza",
+        "food_type": "Brand",
+        "food_url": "https://www.fatsecret.com/calories-nutrition/hungry-planet/gyoza",
+        "servings": {
+            "serving": [
+                {
+                    "added_sugars": "1.00",
+                    "calcium": "30",
+                    "calories": "120",
+                    "carbohydrate": "17.00",
+                    "cholesterol": "0",
+                    "fat": "2.50",
+                    "fiber": "2.0",
+                    "iron": "1.60",
+                    "measurement_description": "serving",
+                    "metric_serving_amount": "79.000",
+                    "metric_serving_unit": "g",
+                    "monounsaturated_fat": "0",
+                    "number_of_units": "1.000",
+                    "polyunsaturated_fat": "0",
+                    "potassium": "190",
+                    "protein": "7.00",
+                    "saturated_fat": "0",
+                    "serving_description": "4 gyoza",
+                    "serving_id": "48898797",
+                    "serving_url": "https://www.fatsecret.com/calories-nutrition/hungry-planet/gyoza",
+                    "sodium": "280",
+                    "sugar": "1.00",
+                    "trans_fat": "0",
+                    "vitamin_d": "0"
+                }
+            ]
+        }
+    }
+}{
+    "food": {
+        "brand_name": "Yoshinoya",
+        "food_id": "68848666",
+        "food_name": "Gyoza",
+        "food_type": "Brand",
+        "food_url": "https://www.fatsecret.com/calories-nutrition/yoshinoya/gyoza",
+        "servings": {
+            "serving": [
+                {
+                    "calories": "250",
+                    "carbohydrate": "30.00",
+                    "fat": "11.00",
+                    "measurement_description": "serving",
+                    "number_of_units": "1.000",
+                    "protein": "7.00",
+                    "serving_description": "5 pieces",
+                    "serving_id": "56328404",
+                    "serving_url": "https://www.fatsecret.com/calories-nutrition/yoshinoya/gyoza"
+                }
+            ]
+        }
+    }
+}{
+    "food": {
+        "brand_name": "Okami",
+        "food_id": "3721196",
+        "food_name": "Chicken Gyoza",
+        "food_type": "Brand",
+        "food_url": "https://www.fatsecret.com/calories-nutrition/okami/chicken-gyoza",
+        "servings": {
+            "serving": [
+                {
+                    "calories": "270",
+                    "carbohydrate": "34.00",
+                    "cholesterol": "30",
+                    "fat": "4.00",
+                    "fiber": "1.0",
+                    "measurement_description": "serving",
+                    "metric_serving_amount": "120.000",
+                    "metric_serving_unit": "g",
+                    "number_of_units": "1.000",
+                    "protein": "12.00",
+                    "saturated_fat": "1.000",
+                    "serving_description": "6 pieces with 1 tbsp sauce",
+                    "serving_id": "3620700",
+                    "serving_url": "https://www.fatsecret.com/calories-nutrition/okami/chicken-gyoza",
+                    "sodium": "570",
+                    "sugar": "4.00",
+                    "trans_fat": "0"
+                }
+            ]
+        }
+    }
+}
