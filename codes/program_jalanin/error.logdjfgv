@@ -1,0 +1,22 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "D:\GitHub\NutriPal-ML\codes\program_jalanin\app.py", line 99, in get_recommendation
+    top_recommendations = recommend_food(model=model, data=df, food_id=food_id, food_name=food_name)
+  File "D:\GitHub\NutriPal-ML\codes\program_jalanin\app.py", line 61, in recommend_food
+    'Tipe': [food_row['Tipe'].values[0]]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2023 02:58:18] "POST /recommend HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "D:\GitHub\NutriPal-ML\codes\program_jalanin\app.py", line 99, in get_recommendation
+    top_recommendations = recommend_food(model=model, data=df, food_id=food_id, food_name=food_name)
+  File "D:\GitHub\NutriPal-ML\codes\program_jalanin\app.py", line 61, in recommend_food
+    'Tipe': [food_row['Tipe'].values[0]]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:werkzeug:127.0.0.1 - - [13/Jun/2023 02:58:40] "POST /recommend HTTP/1.1" 200 -
